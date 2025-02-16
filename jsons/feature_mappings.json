@@ -1,0 +1,375 @@
+{
+  "MSZoning": {
+    "A": 10,
+    "C (all)": 20,
+    "FV": 30,
+    "I": 40,
+    "RH": 50,
+    "RL": 60,
+    "RP": 70,
+    "RM": 80,
+    "NA": 0
+  },
+  "Street": {
+    "Grvl": 0,
+    "Pave": 1
+  },
+  "Alley": {
+    "NA": 0,
+    "Pave": 1,
+    "Grvl": 2
+  },
+  "LotShape": {
+    "Reg": 100,
+    "IR1": 75,
+    "IR2": 50,
+    "IR3": 25
+  },
+  "LandContour": {
+    "Lvl": 100,
+    "Bnk": 70,
+    "HLS": 50,
+    "Low": 20
+  },
+  "Utilities": {
+    "AllPub": 100,
+    "NoSewr": 70,
+    "NoSeWa": 40,
+    "ELO": 10,
+    "NA": 0
+  },
+  "LotConfig": {
+    "CulDSac": 100,
+    "Corner": 80,
+    "Inside": 60,
+    "FR2": 40,
+    "FR3": 20
+  },
+  "LandSlope": {
+    "Gtl": 100,
+    "Mod": 50,
+    "Sev": 10
+  },
+  "Neighborhood": {
+    "Blmngtn": 40.678811,
+    "Blueste": 16.442936,
+    "BrDale": 2.499708,
+    "BrkSide": 11.092307,
+    "ClearCr": 48.153732,
+    "CollgCr": 41.986223,
+    "Crawfor": 47.333897,
+    "Edwards": 12.522547,
+    "Gilbert": 39.827009,
+    "IDOTRR": 0.65365,
+    "MeadowV": 0.0,
+    "Mitchel": 24.372226,
+    "NAmes": 19.969094,
+    "NPkVill": 18.637288,
+    "NWAmes": 38.219854,
+    "NoRidge": 100.0,
+    "NridgHt": 91.963169,
+    "OldTown": 12.524913,
+    "SWISU": 18.593741,
+    "Sawyer": 16.144327,
+    "SawyerW": 37.166169,
+    "Somerst": 53.567077,
+    "StoneBr": 89.524992,
+    "Timber": 60.692665,
+    "Veenker": 59.224797
+  },
+  "Condition1": {
+    "PosA": 100,
+    "PosN": 80,
+    "Norm": 60,
+    "Feedr": 50,
+    "Artery": 40,
+    "RRNn": 35,
+    "RRNe": 35,
+    "RRAn": 20,
+    "RRAe": 20
+  },
+  "Condition2": {
+    "PosA": 100,
+    "PosN": 80,
+    "Norm": 60,
+    "Feedr": 50,
+    "Artery": 40,
+    "RRNn": 35,
+    "RRNe": 35,
+    "RRAn": 20,
+    "RRAe": 20
+  },
+  "BldgType": {
+    "1Fam": 100,
+    "TwnhsE": 80,
+    "Duplex": 50,
+    "2fmCon": 30,
+    "Twnhs": 25
+  },
+  "HouseStyle": {
+    "2.5Fin": 100,
+    "2Story": 90,
+    "1.5Fin": 80,
+    "1Story": 70,
+    "2.5Unf": 60,
+    "1.5Unf": 50,
+    "SLvl": 40,
+    "SFoyer": 30
+  },
+  "RoofStyle": {
+    "Hip": 100,
+    "Gable": 80,
+    "Mansard": 60,
+    "Gambrel": 50,
+    "Shed": 30,
+    "Flat": 20
+  },
+  "RoofMatl": {
+    "ClyTile": 100,
+    "WdShngl": 90,
+    "WdShake": 80,
+    "Metal": 70,
+    "CompShg": 60,
+    "Tar&Grv": 50,
+    "Membran": 40,
+    "Roll": 30
+  },
+  "Exterior1st": {
+    "Stone": 100,
+    "BrkFace": 90,
+    "CemntBd": 85,
+    "Stucco": 75,
+    "VinylSd": 70,
+    "WdShing": 65,
+    "Wd Sdng": 60,
+    "BrkComm": 55,
+    "PreCast": 50,
+    "HdBoard": 45,
+    "MetalSd": 40,
+    "Plywood": 35,
+    "ImStucc": 30,
+    "AsphShn": 25,
+    "CBlock": 20,
+    "AsbShng": 15,
+    "Other": 40,
+    "NA": 0
+  },
+  "Exterior2nd": {
+    "Stone": 100,
+    "BrkFace": 90,
+    "CmentBd": 85,
+    "Stucco": 75,
+    "VinylSd": 70,
+    "Wd Shng": 65,
+    "Wd Sdng": 60,
+    "Brk Cmn": 55,
+    "PreCast": 50,
+    "HdBoard": 45,
+    "MetalSd": 40,
+    "Plywood": 35,
+    "ImStucc": 30,
+    "AsphShn": 25,
+    "CBlock": 20,
+    "AsbShng": 15,
+    "Other": 40,
+    "NA": 0
+  },
+  "MasVnrType": {
+    "Stone": 100,
+    "BrkFace": 85,
+    "BrkCmn": 60,
+    "CBlock": 30,
+    "NA": 0
+  },
+  "ExterQual": {
+    "Ex": 100,
+    "Gd": 80,
+    "TA": 65,
+    "Fa": 40,
+    "Po": 20
+  },
+  "ExterCond": {
+    "Ex": 100,
+    "Gd": 80,
+    "TA": 65,
+    "Fa": 40,
+    "Po": 20
+  },
+  "Foundation": {
+    "PConc": 100,
+    "BrkTil": 80,
+    "CBlock": 70,
+    "Stone": 50,
+    "Slab": 40,
+    "Wood": 20
+  },
+  "BsmtQual": {
+    "Ex": 100,
+    "Gd": 80,
+    "TA": 65,
+    "Fa": 40,
+    "Po": 20,
+    "NA": 0
+  },
+  "BsmtCond": {
+    "Ex": 100,
+    "Gd": 80,
+    "TA": 65,
+    "Fa": 40,
+    "Po": 20,
+    "NA": 0
+  },
+  "BsmtExposure": {
+    "Gd": 100,
+    "Av": 70,
+    "Mn": 40,
+    "No": 20,
+    "NA": 0
+  },
+  "BsmtFinType1": {
+    "GLQ": 100,
+    "ALQ": 80,
+    "BLQ": 60,
+    "Rec": 50,
+    "LwQ": 30,
+    "Unf": 10,
+    "NA": 0
+  },
+  "BsmtFinType2": {
+    "GLQ": 100,
+    "ALQ": 80,
+    "BLQ": 60,
+    "Rec": 50,
+    "LwQ": 30,
+    "Unf": 10,
+    "NA": 0
+  },
+  "Heating": {
+    "GasA": 100,
+    "GasW": 80,
+    "OthW": 60,
+    "Floor": 50,
+    "Wall": 30,
+    "Grav": 20
+  },
+  "HeatingQC": {
+    "Ex": 100,
+    "Gd": 80,
+    "TA": 65,
+    "Fa": 40,
+    "Po": 20
+  },
+  "Electrical": {
+    "SBrkr": 100,
+    "FuseA": 75,
+    "FuseF": 50,
+    "FuseP": 25,
+    "Mix": 40,
+    "NA": 0
+  },
+  "Functional": {
+    "Typ": 100,
+    "Min1": 85,
+    "Min2": 70,
+    "Mod": 50,
+    "Maj1": 35,
+    "Maj2": 20,
+    "Sev": 10,
+    "Sal": 0,
+    "NA": 0
+  },
+  "KitchenQual": {
+    "Ex": 100,
+    "Gd": 80,
+    "TA": 50,
+    "Fa": 30,
+    "NA": 0
+  },
+  "FireplaceQu": {
+    "Ex": 100,
+    "Gd": 80,
+    "TA": 65,
+    "Fa": 40,
+    "Po": 20,
+    "NA": 0
+  },
+  "GarageType": {
+    "BuiltIn": 100,
+    "2Types": 90,
+    "Attchd": 80,
+    "Basment": 70,
+    "Detchd": 60,
+    "CarPort": 40,
+    "NA": 0
+  },
+  "GarageFinish": {
+    "Fin": 100,
+    "RFn": 66,
+    "Unf": 33,
+    "NA": 0
+  },
+  "GarageQual": {
+    "Ex": 100,
+    "Gd": 80,
+    "TA": 65,
+    "Fa": 40,
+    "Po": 20,
+    "NA": 0
+  },
+  "GarageCond": {
+    "Ex": 100,
+    "Gd": 80,
+    "TA": 65,
+    "Fa": 40,
+    "Po": 20,
+    "NA": 0
+  },
+  "PavedDrive": {
+    "Y": 100,
+    "P": 50,
+    "N": 0
+  },
+  "PoolQC": {
+    "Ex": 100,
+    "Gd": 80,
+    "TA": 50,
+    "Fa": 30,
+    "NA": 0
+  },
+  "Fence": {
+    "GdPrv": 100,
+    "GdWo": 75,
+    "MnPrv": 50,
+    "MnWw": 25,
+    "NA": 0
+  },
+  "MiscFeature": {
+    "Gar2": 50,
+    "Othr": 0,
+    "Shed": 37,
+    "TenC": 100,
+    "Elev": 85,
+    "NA": 0
+  },
+  "SaleType": {
+    "New": 100,
+    "WD": 80,
+    "CWD": 85,
+    "VWD": 75,
+    "Con": 60,
+    "ConLI": 55,
+    "ConLD": 50,
+    "ConLw": 45,
+    "COD": 30,
+    "Oth": 20,
+    "NA": 20
+  },
+  "SaleCondition": {
+    "Normal": 100,
+    "Partial": 80,
+    "Alloca": 70,
+    "AdjLand": 60,
+    "Family": 40,
+    "Abnorml": 20
+  }
+}
